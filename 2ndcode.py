@@ -6,3 +6,4 @@ print(25 , "is the day i born")
 print(True)
 
 print("now it's the second day of my using github and VS Code for\nusing python , so i am excited to use this command to go to the next line.")
+print("lets move to now day 3")
