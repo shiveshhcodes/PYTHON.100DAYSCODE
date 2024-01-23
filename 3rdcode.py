@@ -1,7 +1,7 @@
 a = 1912
 b = 12109
 c = "shivesh richhariya"
-d = False 
+d = True 
 e = None
 print(a+b)
 print(a*b)
