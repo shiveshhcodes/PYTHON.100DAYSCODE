@@ -6,7 +6,7 @@ if b.lower() == "yes":
     print("Let's Rock then")
 
     s = int(input("\nEnter Your Age " + a + ":"))
-    print("Your Age is:", s)
+    print(" What is Your Age :", s)
 
     if s > 19:
         print("You can go to college now")
