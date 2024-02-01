@@ -8,8 +8,8 @@ if b.lower() == "yes":
     s = int(input("\nEnter Your Age " + a + ":"))
     print(" What is Your Age :", s)
 
-    if s > 19:
-        print("You can go to college now")
+    if s > 18:
+        print("You can go to college now , You are adult ")
         ss = input("\nAre you happy now?? (Yes/No): ")
         if ss.lower() == "yes":
             print("Good Boy")
@@ -17,7 +17,7 @@ if b.lower() == "yes":
             print("\nBad Habit")
             print("GO AND STUDY, YOU STUPID")
 
-    elif s == 18:  
+    elif s == 17:  
         print("I guess you just passed your 12th, you can go to\nApply for college next year buddy.")
 
     else:
