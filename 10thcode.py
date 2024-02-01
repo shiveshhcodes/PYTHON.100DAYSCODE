@@ -1,4 +1,4 @@
-a = input("What is Your Name?? : ")
+a = input("Tell Me Your Name?? : ")
 print("\nHi", a, "I hope you are doing good")
 b = input("\nShall we start our program?? (yes/no) : ")
 
@@ -18,7 +18,7 @@ if b.lower() == "yes":
             print("GO AND STUDY, YOU STUPID")
 
     elif s == 18:  
-        print("I guess you just passed your 12th, you can go to\nCollege from next year.")
+        print("I guess you just passed your 12th, you can go to\nApply for college next year buddy.")
 
     else:
         print("You cannot go to college now")
