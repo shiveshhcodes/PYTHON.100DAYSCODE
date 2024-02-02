@@ -15,7 +15,7 @@ if b.lower() == "yes":
             print("Good Boy")
         else:
             print("\nBad Habit")
-            print("GO AND STUDY, YOU STUPID")
+            print("GO AND STUDY")
 
     elif s == 17:  
         print("I guess you just passed your 12th, you can go to\nApply for college next year buddy.")
