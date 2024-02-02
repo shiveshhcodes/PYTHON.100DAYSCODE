@@ -1,9 +1,9 @@
 a = input("Tell Me Your Name?? : ")
-print("\nHi", a, "I hope you are doing good")
-b = input("\nShall we start our program?? (yes/no) : ")
+print("\nHi", a, "I hope you are doing fantastic")
+b = input("\nDo You agree to all our T&C's? (yes/no) : ")
 
 if b.lower() == "yes":
-    print("Let's Rock then")
+    print("Let's do it then")
 
     s = int(input("\nEnter Your Age " + a + ":"))
     print(" What is Your Age :", s)
