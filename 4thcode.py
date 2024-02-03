@@ -1,6 +1,6 @@
 #i am planning to make my first calculator using python , rn.. so let's do it.
 
-a = 45232222
+a = 452322
 b = 12121212
 
 ans1= a+b
