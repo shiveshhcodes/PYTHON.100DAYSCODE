@@ -1,7 +1,7 @@
 #here we learned about , what is typecasting and how does it works for all.
 
-a = 320
-b = 232
+a = 999
+b = 22323
 
 print("the sum of" , a , "and" , b , "is equal to" , a+b)
 

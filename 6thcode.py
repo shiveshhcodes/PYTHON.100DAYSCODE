@@ -1,11 +1,15 @@
-a = input("what is your name my dear friend: ")
-print("Ok, your name is", a, "is that correct")
-b = input("yes or no?: ")
-print("Thank you for your feedback", a, "We deeply regret if there is any mistake from our end")
+a = input("what is your name dude: ")
+print("Ok, your name is", a, "hahaha , i got you")
+print("\nSachbol yahi hai na tera naam")
 
-print("\n\nNow let's gather more information about you")
-c = input("Tell me what is your date of birth: ")
-print("Your date of birth is", c)
-d = input("Type any number between 01-10: ")
-print("The multiplication (x) of the number you thought and your date of birth is", int(d) * int(c))
-print("I hope you liked my this day 06 of the program. Have a good day", a, "And Happy Birthday \nIf it's", c, "today")
+b = input("Yes/No : ")
+if b.lower() == "no" :
+ print("Thank you for your feedback,", a, "We deeply regret if there is any mistake from our end")
+else :
+ print("\nNow let's gather more information about you")
+
+ c = input("Tell me what is your date of birth: ")
+ print("Your date of birth is", c)
+ d = input("Type any number between 01-10: ")
+ print("The multiplication (x) of the number you thought and your date of birth is", int(d) * int(c))
+ print("I hope you liked my this day 06 of the program. Have a good day", a, "And Happy Birthday \nIf it's", c, "today")

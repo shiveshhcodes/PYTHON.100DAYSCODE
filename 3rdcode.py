@@ -3,7 +3,7 @@ b = 12109
 c = "shivesh richhariya"
 d = True 
 e = None
-print(a+b)
+print("The Sum of Given A and B is", a+b)
 print(a*b)
 print(a%b)
 
