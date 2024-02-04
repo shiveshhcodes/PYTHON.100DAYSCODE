@@ -41,7 +41,7 @@ z = input("Do You want me to show the range between these : (Yes/No Idea/No) ")
 if z.lower() == "yes":
     print("\n\nHere is the result")
     for s in range(x, y):
-        print(s)
+        print(s) 
     print("\nhope you will have good day")
 elif z.lower() == "No Idea":
       print("\n\nHere is the result ----- ")
