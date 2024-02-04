@@ -1,6 +1,6 @@
 a = 1912
 b = 12109
-c = "shivesh richhariya"
+c = "Shivesh Richhariya"
 d = True 
 e = None
 print("The Sum of Given A and B is", a+b)
