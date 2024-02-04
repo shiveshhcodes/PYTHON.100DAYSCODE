@@ -1,5 +1,5 @@
-a = input("what is your name dude: ")
-print("Ok, your name is", a, "hahaha , i got you")
+a = input("what is your name Sir/Mam: ")
+print("Ok, your name is", a, "hahaha , i caught you")
 print("\nSachbol yahi hai na tera naam")
 
 b = input("Yes/No : ")
