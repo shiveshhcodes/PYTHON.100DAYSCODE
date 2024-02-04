@@ -2,8 +2,8 @@
 # loops are of two types , for loops and while loops
 
 name = 'RAM'
-for i in name:
- print(name)
+for s in name:
+ print(s)
 
 name = 'RAM'
 for i in name:
@@ -13,7 +13,7 @@ name = 'RAM'
 for i in name:
     print(i , end=",")
 
-colors = ["RED" , "GREEN" , "BLUE" , "ORANGE"]
+colors = ["\nRED" , "GREEN" , "BLUE" , "ORANGE"]
 for S in colors:
     print(S)
     for i in S:
