@@ -3,7 +3,7 @@
 a = 999
 b = 22323
 
-print("the addition of" , a , "and" , b , "is equal to" , a+b)
+print("the Multiplication of" , a , "and" , b , "is equal to" , a*b)
 
 # now let use these numbers as strings and not as integers
 
