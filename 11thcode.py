@@ -1,6 +1,6 @@
 #here we will understand this new thing called Match case 
 
-s = int(input("Enter a Random Number between 1-10 : "))
+s = int(input("Choose a Random Number between 1-10 : "))
 # now we are gonna use the match case thing here.
 
 match s:
