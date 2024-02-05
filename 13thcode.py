@@ -1,10 +1,10 @@
 i = 129
 while(i<200):
     print(i)
-    i = i+1
+    i = i+3
 
 j = input("Hi, What's Your Name, sir? ")
-print("Hello Mr.", j)
+print("Hello Mr./Mrs.", j)
 
 i = int(input("Guess the Maximum Number of my range: "))
 
