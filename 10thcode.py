@@ -5,7 +5,7 @@ b = input("\nDo You agree to all our T&C's? (yes/no) : ")
 if b.lower() == "yes":
     print("Let's do it then")
 
-    s = int(input("\nWhat's your Age??" + a + ":"))
+    s = int(input("\nTell me your Age??" + a + ":"))
     print("Your Age is :", s )
 
     if s > 18:
