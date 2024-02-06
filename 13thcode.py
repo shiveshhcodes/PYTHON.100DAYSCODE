@@ -3,7 +3,7 @@ while(i<200):
     print(i)
     i = i+3
 
-j = input("Hi, What's Your Name, sir? ")
+j = input("Hi, What is Your Name ")
 print("Hello Mr./Mrs.", j)
 
 i = int(input("Guess the Maximum Number of my range: "))
