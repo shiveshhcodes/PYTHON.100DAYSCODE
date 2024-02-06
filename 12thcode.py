@@ -13,7 +13,7 @@ name = 'RAM'
 for i in name:
     print(i , end=",")
 
-colors = ["\nBLACK" , "GREEN" , "BLUE" , "ORANGE" , "VIOLET"]
+colors = ["BLACK" , "GREEN" , "BLUE" , "ORANGE" , "VIOLET"]
 for S in colors:
     print(S)
     for i in S:
@@ -40,13 +40,13 @@ z = input("Do You want me to show the range between these : (Yes/No Idea/No) ")
 
 if z.lower() == "yes":
     print("\n\nHere is the result")
-    for s in range(x, y):
+    for s in range(x, y+1):
         print(s) 
     print("\nhope you will have good day")
 elif z.lower() == "No Idea":
       print("\n\nHere is the result ----- ")
       print("give a shot , here is the result :")
-      for s in range(x,y):
+      for s in range(x,y+1):
         print(s)
 else:
     print("\nTHANK YOU", "\nBOSS :)")
