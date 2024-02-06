@@ -13,7 +13,7 @@ name = 'RAM'
 for i in name:
     print(i , end=",")
 
-colors = ["\nRED" , "GREEN" , "BLUE" , "ORANGE" , "VIOLET"]
+colors = ["\nBLACK" , "GREEN" , "BLUE" , "ORANGE" , "VIOLET"]
 for S in colors:
     print(S)
     for i in S:
