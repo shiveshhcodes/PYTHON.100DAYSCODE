@@ -1,5 +1,5 @@
 def calculateGmean(a, b):
-  mean = (a*b)/(a+b)
+  mean = (a*b)/(a-b)
   print(mean)
 
 def isGreater(a, b):
