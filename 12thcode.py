@@ -1,7 +1,7 @@
 # today we are going to use Loops , 
 # loops are of two types , for loops and while loops
 
-name = 'RAM'
+name = 'SITA'
 for s in name:
  print(s)
 
@@ -9,7 +9,7 @@ name = 'RAM'
 for i in name:
     print(i)
 
-name = 'RAM'
+name = 'HANUMAN'
 for i in name:
     print(i , end=",")
 
