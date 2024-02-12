@@ -79,7 +79,7 @@ if c.lower() == "yes" and b.lower() == "yes":
         if ss.lower() == "yes":
             print("Goodddddddd")
         else:
-            print("\nBad Habit")
+            print("\nBaddddd Habit")
             print("GO AND STUDY")
 
     elif s == 18:
