@@ -77,7 +77,7 @@ if c.lower() == "yes" and b.lower() == "yes":
         print("You can go to college now, You are an adult ")
         ss = input("\nAre you happy now?? (Yes/No): ")
         if ss.lower() == "yes":
-            print("Good Boy")
+            print("Goodddddddd")
         else:
             print("\nBad Habit")
             print("GO AND STUDY")
