@@ -35,4 +35,4 @@ if s>10:
    print("\nTRY AGAIN NUMBER IN RANGE")
    
 else:
-   print("LET'S STARTTTTTTT")
+   print("LET'S STARTTT")
