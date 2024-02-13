@@ -8,7 +8,7 @@ if b.lower() == "no" :
 else :
  print("\nNow let's gather more information about you")
 
- c = input("Tell me what is your date of birth: ")
+ c = input("Tell me what is your date of birthhhhh: ")
  print("Your date of birth is", c)
  d = input("Type any number between 01-10: ")
  print("The multiplication (x) of the number you thought and your date of birth is", int(d) * int(c))
