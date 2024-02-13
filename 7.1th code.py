@@ -3,8 +3,8 @@ print ("Oh , nice you born on" , a , "Even I born'ed on same date")
 b = input ("Now , let's do some magic things. Are You Excited or Not?? : " )
 print ("Yeahhhhh!! let's do it then" , a )
 
-shivesh = """ Let me guess about of you few things : 
-1. You are a male
+shivesh = """ Let me guess about of you few thingsssssss : 
+1. You are a maleee
 2. You live in india
 3. You use macbook air 15 inch M2
 """
