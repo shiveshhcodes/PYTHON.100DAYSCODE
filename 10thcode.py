@@ -73,7 +73,7 @@ if c.lower() == "yes" and b.lower() == "yes":
     s = int(input("\nTell me your Age??" + a + ":"))
     print("Your Age is:", s)
 
-    if s > 19:
+    if s > 20:
         print("You can go to college now, You are an adult ")
         ss = input("\nAre you happy now?? (Yes/No): ")
         if ss.lower() == "yes":
