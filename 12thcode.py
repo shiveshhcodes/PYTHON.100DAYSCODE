@@ -5,11 +5,11 @@ name = 'SITA'
 for s in name:
  print(s)
 
-name = 'RAMMSS'
+name = 'RAM JI'
 for i in name:
     print(i)
 
-name = 'HANUMAN'
+name = 'HANUMAN JI'
 for i in name:
     print(i , end=",")
 
