@@ -20,5 +20,5 @@ i=22
 while True:
     print(i)
     i = i + 1
-    if(i % 100 == 12):
+    if(i % 100 == 15):
         break
