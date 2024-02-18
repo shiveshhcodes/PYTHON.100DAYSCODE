@@ -4,7 +4,7 @@ string1 = " ShIvesH "
 print(string1.upper())
 print(string1.lower())
 
-string2 = " ShIVEEEEsH "
+string2 = " ShIVEEEEsHHH "
 print(string2.strip)
 
 string3 = "Hello Shivesh !!!"
