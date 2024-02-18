@@ -4,7 +4,7 @@ print("\nSachbol yahi hai na tera naam")
 
 b = input("Yes/No : ")
 if b.lower() == "no" :
- print("Thank you for letting us know,", a, "We deeply regret for this mistake")
+ print("Thank you for letting us know,,,,,", a, "We deeply regret for this mistake")
 else :
  print("\nNow let's gather more information about you")
 
