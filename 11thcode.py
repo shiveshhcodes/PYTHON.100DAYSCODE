@@ -5,7 +5,7 @@ s = int(input("Choose a Random Number between 1 & 10 : "))
 
 match s:
    case 0:
-      print("Value of" , s , "is in the rangeEEE")
+      print("Value of" , s , "is in the rangeEEEEEE")
    case 1:
       print("The value you entered" , s , "is in the Range")
    case 2:
