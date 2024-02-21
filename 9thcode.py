@@ -1,6 +1,6 @@
 #let's discover various strings of python today.
 
-string1 = " ShIvesH "
+string1 = " ShIVVVesH "
 print(string1.upper())
 print(string1.lower())
 
