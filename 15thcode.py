@@ -4,7 +4,7 @@ def calculateGmean(a, b):
 
 def isGreater(a, b):
   if(a>b):
-    print("First number is greater")
+    print("First number is greaterRRRR")
   else:
     print("Second number is greater or equal")
 
