@@ -6,7 +6,7 @@ def isGreater(a, b):
   if(a>b):
     print("First number is greaterRRRR")
   else:
-    print("Second number is greater or equal")
+    print("Second number is greater or equallll")
 
 def isLesser(a, b):
   pass
