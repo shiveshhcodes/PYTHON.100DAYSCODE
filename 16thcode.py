@@ -15,7 +15,7 @@ def average(*numbers):
 # average(4, 6)
 # average(b=9)
 
-c = average(5, 6, 7, 1,8)
+c = average(5, 6, 7, 1,8,2)
 print(c)
 
 
