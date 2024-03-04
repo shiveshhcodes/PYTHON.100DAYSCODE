@@ -5,7 +5,7 @@ name = 'SITA'
 for s in name:
  print(s)
 
-name = 'RAM JI'
+name = 'RAM JIII'
 for i in name:
     print(i)
 
