@@ -19,6 +19,6 @@
 i=22
 while True:
     print(i)
-    i = i + 2
+    i = i + 3
     if(i % 100 == 15):
         break
