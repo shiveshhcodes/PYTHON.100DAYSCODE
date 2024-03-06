@@ -7,7 +7,7 @@ match s:
    case 0:
       print("Value of" , s , "is in the rangeEEEEEE")
    case 1:
-      print("The value you enteredDD" , s , "is in the Range")
+      print("The value you enteredDDd" , s , "is in the Range")
    case 2:
       print("The value of" , s , "is in the range")
    case 3:
