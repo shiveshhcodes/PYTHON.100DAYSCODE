@@ -20,7 +20,7 @@ string6 = "JAI SHRI RAM"
 print(string6.capitalize())
 
 string7 = "SHIVESH RICHHARIYA"
-print(string7.center(69 , ":"))
+print(string7.center(89 , ":"))
 
 string8 = "shibusokoks"
 print(string8.count("s"))
