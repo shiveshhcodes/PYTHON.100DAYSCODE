@@ -61,7 +61,7 @@
 
 # print("Thank you for checking my program.\nHave a Good Day", a, ":)")
 
-a = input("WHAT IS YOUR NAME?? : ")
+a = input("WHAT IS YOUR NAME???? : ")
 print("\nHi", a, "I hope you are doing fantastic")
 
 b = input("\nDo You agree to all our T&C's? (yes/no) : ")
