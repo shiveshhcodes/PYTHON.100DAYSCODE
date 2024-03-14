@@ -87,6 +87,6 @@ if c.lower() == "yes" and b.lower() == "yesSSS":
 
     else:
         print("You cannot go to college now")
-
-print("\nThank you for checking my program.\n\nHave a Good Day", a, ":)")
+else:
+ print("\nThank you for checking my program.\n\nHave a Good Day", a, ":)")
 
