@@ -17,4 +17,4 @@ print (nameee)
 # print (name[0])
 print("lets divide characters in \n")
 for character in nameee :
-  print (character)
+  print (nameee)
