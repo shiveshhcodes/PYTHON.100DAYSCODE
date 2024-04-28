@@ -11,14 +11,14 @@
 #   if(i%100 == 0):
 #     break
 
-# for i in range(12):
-#     print("10 X" , i+1 , "=" , 10* (i+1))
+for d in range(10):
+    print(d)
 
-# print("THIS LOOP IS ENDED HERE")
+print("THIS LOOP IS ENDED HERE")
 
-i=22
-while True:
-    print(i)
-    i = i + 3
-    if(i % 100 == 15):
-        break
+# i=22
+# while True:
+#     print(i)
+#     i = i + 3
+#     if(i % 100 == 15):
+#         break
