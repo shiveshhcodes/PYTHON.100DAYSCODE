@@ -5,8 +5,6 @@ marks = [0,12,23,34,45,56,67]
 # print(type(marks))
 # print(marks[0])
 # print(marks[1])
-# print(marks[2])
-# print(marks[3])
 
 # print(marks[-3])
 # print(marks[len(marks)-3])
@@ -26,4 +24,5 @@ lst = [i*i for i in range(10) if i%2==1]
 print(lst)
 
 lst = [i+i for i in range(5) if i%2==0]
+
 
