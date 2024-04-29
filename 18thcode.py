@@ -1,3 +1,5 @@
+# here we will we will learn about different data sets.
+
 l=[12,23,34,45,56,67,78,89,90,110]
 d=[1212,1122]
 l.append(21)
