@@ -14,4 +14,4 @@ print(tuple)
 #  print("this number does not exist")
 
 tuple2 = tuple[1:5]
-print(tuple2)
+print(tuple2 , tuple2.count(21))
