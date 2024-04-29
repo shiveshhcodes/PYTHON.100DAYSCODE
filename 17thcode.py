@@ -1,6 +1,6 @@
 # here we will learn about lists.
 
-marks = [0,12,23,34,45,56,67]
+marks = [0,12,23,34,45,56,67,78,89,121]
 # print(marks)
 # print(type(marks))
 # print(marks[0])
@@ -20,7 +20,7 @@ marks = [0,12,23,34,45,56,67]
 # print (marks[1:-1])
 # print (marks[1:4:2])
 
-lst = [i*i for i in range(10) if i%2==1]
+lst = [i*i for i in range(34) if i%5==0]
 print(lst)
 
 lst = [i+i for i in range(5) if i%2==0]
