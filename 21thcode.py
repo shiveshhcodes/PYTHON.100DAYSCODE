@@ -15,9 +15,9 @@ import time
 t = time.strftime('%H:%M:%S')  
 Hour = int(time.strftime('%H'))  
 
-if 0 <= Hour < 12:  # Morning from 0 to 11s
-    print("Good Morning Shivesh")
-elif 12 <= Hour < 17:  # Afternoon from 12 to 16
-    print("Good Afternoon Shivesh")
-else:  # Evening and night from 17 to 23
+if 0 <= Hour < 12:  
+    print("Good Morning Shiveshhh")
+elif 12 <= Hour < 17:  
+    print("Good Afternoon Shiveshhh")
+else:  
     print("Good Evening Shivesh")
