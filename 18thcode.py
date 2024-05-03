@@ -5,7 +5,7 @@ d=[1212,1122]
 l.append(21)
 l.sort()
 # l.sort(reverse=True)
-print(l.count(56))
+print(l.count(67))
 print(l.index(34))
 l.insert(3,122)
 l.extend(d)
