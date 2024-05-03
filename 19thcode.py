@@ -3,7 +3,7 @@
 tuple=(1,21,34,32,445)
 print(type(tuple) , tuple)
 print(len(tuple))
-print(tuple[4])
+print(tuple[6])
 print(tuple[3])
 print(tuple)
 
