@@ -11,7 +11,7 @@
 
 Studentsname = ("shivesh" , "rajjj" , "akshay" , "kapil" , "prince")
 temp = list(Studentsname)
-temp.append("ankita")
+temp.append("akhit , rahgir")
 temp.pop(3)
 temp[4] = "ashwin"
 Studentsname = tuple(temp)
