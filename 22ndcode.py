@@ -79,7 +79,7 @@ questions = [
 total_amount = 0
 
 for question in questions:
-    print(question["questionn"])
+    print(question["question"])
     for option in question["options"]:
         print(option)
     
@@ -93,4 +93,4 @@ for question in questions:
         break
 
 print()
-print("Game over. Total prizee:", total_amount)
+print("Game over. Total prize:", total_amount)
