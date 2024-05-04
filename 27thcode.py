@@ -2,7 +2,7 @@
 # so lets do thisssssss
 
 a = {"a" , "b", "c" , "d" , "e" , "f" , "g" , "h" , "i", "j"}
-b = {"e" , "f" , "g" , "h" , "i", "j" , "y" , 12}
+b = {"e" , "f" , "g" , "h" , "i", "j" , "y" , 12 , "l"}
 
 c = a.union(b)
 d = b.intersection(a)
