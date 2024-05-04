@@ -12,12 +12,12 @@
 
 import time
 
-t = time.strftime('%H:%M')  
-# Hour = int(time.strftime('%H'))  
+t = time.strftime('%H:%M:%S')  
+Hour = int(time.strftime('%H'))  
 
-# # if 0 <= Hour < 12:  
-#     print("Good Morning Shiveshhh")
-# elif 12 <= Hour < 17:  
-#     print("Good Afternoon Shiveshhh")
-# else:  
-#     print("Good Evening Shivesh")
+if 0 <= Hour < 12:  
+    print("Good Morning Shiveshhh")
+elif 12 <= Hour < 17:  
+    print("Good Afternoon Shiveshhh")
+else:  
+    print("Good Evening Shivesh")
