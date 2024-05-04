@@ -20,7 +20,7 @@ marks = [0,12,23,34,45,56,67,78,89,121,156]
 # print (marks[1:-1])
 # print (marks[1:4:2])
 
-lst = [i **1222 for i in range(234) if i%55==0]
+lst = [i*i for i in range(234) if i%55==0]
 print(lst)
 
 lst = [i+i for i in range(5) if i%2==0]
