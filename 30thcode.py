@@ -18,10 +18,10 @@
 #     print("2 X" , i+1 , "is equals " , boss)
 # else:
 #     print("none")
- 
-for c in range(1 , 11):  
-    boss = 13 * c
-    print("13 X", c , "is equals to", boss) 
+value_taken=int(input("ENTER A RANDOM VALUE "))
+for c in range(1 , 21):  
+    boss = value_taken * c
+    print(value_taken , "X", c , "is equals to", boss) 
 else:
     print("Loop completed without interruption")
 
