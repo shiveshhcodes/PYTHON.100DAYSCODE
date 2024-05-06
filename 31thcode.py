@@ -16,8 +16,8 @@
 
 try:
   c = int(input("enter a integer value: " ))
-  d = [1,2,5,4,3,22,232,333]
-  print(d[c])
+  d = [1,2,5,4,3,22,232,333,2322,4444]
+  print("the index value stored at", c , "position is" ,d[c])
 except ValueError:
     print("value entered is not a integer number ")
 except IndexError:
