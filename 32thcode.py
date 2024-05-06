@@ -17,7 +17,7 @@
 
 def func1():
   try:
-    l = [1, 5, 6, 7]
+    l = [1, 5, 6, 7 , 10 , 12 , 34 , 110]
     i = int(input("Enter the index: "))
     print(l[i])
     return 1
