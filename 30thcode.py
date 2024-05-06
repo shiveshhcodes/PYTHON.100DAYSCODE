@@ -19,9 +19,10 @@
 # else:
 #     print("none")
 value_taken=int(input("ENTER A RANDOM VALUE "))
-for c in range(1 , 21):  
-    boss = value_taken * c
-    print(value_taken , "X", c , "is equals to", boss) 
+n22 = int(input("till what value you want results?? "))
+for i in range(1 , n22+1):  
+    boss = value_taken * i
+    print(value_taken , "X", i , "is equals to", boss) 
 else:
     print("Loop completed without interruption")
 
