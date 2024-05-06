@@ -19,9 +19,9 @@
 # else:
 #     print("none")
  
-for i in range(1 , 11):  
-    boss = 13 * i
-    print("13 X", i , "is equals to", boss) 
+for c in range(1 , 11):  
+    boss = 13 * c
+    print("13 X", c , "is equals to", boss) 
 else:
     print("Loop completed without interruption")
 
