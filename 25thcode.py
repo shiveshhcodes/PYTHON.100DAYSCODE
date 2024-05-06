@@ -127,8 +127,8 @@ def AP(a1 , n , d):
     return AP_sequence
 
 a1 = int(input("Enter a value of a : "))
-n = int(input("Enter a value of N : "))
 d = int(input("Enter a value of d : "))
+n = int(input("Enter a value of n : "))
 
 result = AP(a1 ,n , d)
 
