@@ -59,7 +59,7 @@
 
 
 name = input("Hi, What's Your Name? ")
-print("Hi", name, "We hope you are doing well. We have some good stuff for you.")
+print("Hi", name , "We hope you are doing well. We have some good stuff for you.")
 asking = input("Are you excited to start? Yes/No: ")
 
 if asking.lower() == "yes":  
