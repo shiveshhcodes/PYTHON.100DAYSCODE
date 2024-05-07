@@ -34,8 +34,8 @@ marks = [1,12,13,122,344,55,66]
 #   if (index == 2):
 #    print("HE IS THE TOPPER")
 #   index +=1
-
+a=int(input("enter a value : "))
 for index , mark in enumerate (marks):
     print(mark)
-    if (index == 5):
+    if (index == a):
         print("he's the topper!!")
