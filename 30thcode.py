@@ -18,13 +18,17 @@
 #     print("2 X" , i+1 , "is equals " , boss)
 # else:
 #     print("none")
-value_taken=int(input("ENTER A RANDOM VALUE "))
-n22 = int(input("till what value you want results?? "))
-for i in range(1 , n22+1):  
-    boss = value_taken * i
-    print(value_taken , "X", i , "is equals to", boss) 
-else:
-    print("Loop completed without interruption")
+# try:
+#  value_taken=int(input("ENTER A RANDOM VALUE "))
+#  n22 = int(input("till what value you want results?? "))
+
+#  for i in range(1 , n22+1):  
+#     boss = value_taken * i
+#     print(value_taken , "X", i , "is equals to", boss) 
+#  else:
+#     print("Loop completed without interruption")
+# except ValueError:
+#     print("please enter a intger value")
 
 # i = 1
 # while i<5:
@@ -47,3 +51,21 @@ else:
 #    print("The value for", i , "using i * (i + 1)  is", s) 
 # else : 
 #     print("thank you")
+
+while True:
+    try:
+        value_taken = int(input("Enter a random value: "))
+
+        n22 = int(input("Till what value do you want results?: "))
+
+        break
+    except ValueError:
+
+        print("Invalid input! Please enter an integer value.")
+
+
+for i in range(1, n22 + 1):
+    result = value_taken * i
+    print(value_taken, "X", i, "is equal to", result)
+    
+print("Loop completed without interruption")
