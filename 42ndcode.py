@@ -1,13 +1,17 @@
+# lets discover and learn about local and global variables in python
 
-while True:
-    ad = input("Enter a number: ")
-    try:
-      a = int(ad)
-      print ("your number is" , a) 
-     
-      if a <= 21:  # Condition for breaking the loop
-            # print("Number is greater than 21. Exiting the loop.")
-            break  # Exit the loop
-    except ValueError:
-     print("please enter a number , not alphabets")
-  
+# this is a global variable
+x = 25
+print("the first global value of x is" , x)
+# now , lets discover what is local variable
+def local():
+  global x
+  x = 10
+  y = 22
+  print("then the local value of x is" , x)
+  print("then the local value of y is" , y)
+
+# print(f"hence ,  global value of x is {x}")
+local()
+# x = 21
+print(f"NOW , the global value of x is now" , x)
