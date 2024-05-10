@@ -4,10 +4,10 @@ f = open('44.1thcode.txt' , 'r')
 # f.writelines(lines)
 
 while True:
-    hello = f.readline()
-    if not hello:
+    helloo = f.readline()
+    if not helloo:
         break
-    print(hello)
+    print(helloo)
     
 
 # while True:
