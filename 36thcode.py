@@ -26,7 +26,7 @@
 
 
 # today we are gonna learn Enumerate function.
-marks = [1,12,13,122,344,55,66]
+marks = [1,12,13,122,344,556,66]
 
 # index = 0
 # for mark in marks:
