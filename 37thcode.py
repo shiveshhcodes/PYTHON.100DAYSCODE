@@ -30,5 +30,5 @@
 # print(dir(math))
 
 import math as m 
-result = m.sqrt(6767)
+result = m.sqrt(6969)
 print(f"{result:.2f}")
