@@ -4,7 +4,7 @@
 # def square (a):
 #     return a*a
 
-# l = [1,2,3,4,5,6,7,8,9,10]
+l = [1,2,3,4,5,6,7,8,9,10]
 
 # newl=[]
 # for item in l:
@@ -37,6 +37,6 @@
  
 from functools import reduce
 
-num = [1,2,11.1,4.8,5.2,6.4]
+num = [1,2,3.4,5.6,7.8,9.65]
 multiply = reduce(lambda x,y: x*y*y , num)
 print("{:.3f}".format(multiply))
