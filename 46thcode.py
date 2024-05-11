@@ -1,18 +1,26 @@
 # today we are gonna learn of lemda function in python!!
 
-def apply (fx , value):
-    return 2112 + fx(value)
-def cube (value):
-    return value*value*value
+# def apply (fx , value):
+#     return 2112 + fx(value)
+# def cube (value):
+#     return value*value*value
 
 # result = apply(lambda x : x*x*x , 5)
 
 # print(result)
-# import math as m
-# square  = lambda x: x*x
-# cube  = lambda x: x*x*x
-# square_root  = lambda x: m.sqrt(x)
-# cube_root  = lambda x: m.cbrt(x)
+
+import math as m
+
+
+square  = lambda x: x*x 
+cube  = lambda x : x*x*x
+square_root  = lambda x: m.sqrt(x)
+cube_root  = lambda x: m.cbrt(x)
+
+print(square(14))
+print(cube(9))
+print(square_root(576))
+print(cube_root(125))
 
 # x = 8128
 # print(square(x))
@@ -25,5 +33,5 @@ def cube (value):
 #     return x + x*x + y + y*y - x*y
 # print(boss(10,15))
 
-result = apply (cube , 11)
-print(result)
+# result = apply (cube , 11)
+# print(result)
