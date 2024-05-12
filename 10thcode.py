@@ -70,9 +70,8 @@ c = input("\nDo You READ to all our T&C's? (yes/no) : ")
 if c.lower() == "yes" and b.lower() == "yes":
     print("Let's do it then")
 
-    s = int(input("\nTell me your Age??" + a + ":"))
+    s = int(input("\nTell me your Age?? " + a + ":"))
     print("Your Age is:", s)
-
     if s > 20:
         print("You can go to college now, You are an adult ")
         ss = input("\nAre you happy now?? (Yes/No): ")
