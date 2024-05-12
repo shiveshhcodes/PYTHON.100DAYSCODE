@@ -1,26 +1,27 @@
 # Today we are gonna learn on classes and objects on OOPs of python programming language!!
 
-# class Cars:
-#     Owner = "Raja"
-#     Name = "BMW"
-#     Engine = "V8"
-#     Colour = "Black"
-#     Type = "SUV"
-#     Model_name = "X7"
-#     Year = 2021
+class Cars:
+    Owner = "Raja"
+    Name = "BMW"
+    Engine = "V8"
+    Colour = "Black"
+    Type = "SUV"
+    Model_name = "X7"
+    Year = 2021
     
-#     def carinfo(self):
-#         print(f"{self.Owner} wants {self.Name} in {self.Year} and {self.Engine} Engine in his car")
+    def carinfo(self):
+        print(f"{self.Owner} wants {self.Name} in {self.Year} and {self.Engine} Engine in his car")
     
-# shivesh = Cars()
+shivesh = Cars()
 # ayush = Cars()
 # tejas = Cars()
 
-# shivesh.Owner = "Shivesh"
-# shivesh.Name = "Rolls Royce"
-# shivesh.Engine = "V10"
-# shivesh.Year = 2025
+shivesh.Owner = "Shivesh"
+shivesh.Name = "Rolls Royce"
+shivesh.Engine = "V10"
+shivesh.Year = 2025
 
+shivesh.carinfo()
 # ayush.Owner = "Ayush"
 # ayush.Name = "Audi"
 # ayush.Engine = "V12"
@@ -31,9 +32,7 @@
 # tejas.Engine = "V8"
 # tejas.Year = 2030
 
-# # print(shivesh.Name , shivesh.Engine)
 
-# shivesh.carinfo()
 # ayush.carinfo()
 # tejas.carinfo()
 
