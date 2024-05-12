@@ -67,7 +67,7 @@ print("\nHi", a, "I hope you are doing fantastic")
 b = input("\nDo You agree to all our T&C's? (yes/no) : ")
 c = input("\nDo You READ to all our T&C's? (yes/no) : ")
 
-if c.lower() == "yes" and b.lower() == "yesSSS":
+if c.lower() == "yes" and b.lower() == "yes":
     print("Let's do it then")
 
     s = int(input("\nTell me your Age??" + a + ":"))
