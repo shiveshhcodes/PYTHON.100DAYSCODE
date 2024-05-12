@@ -30,4 +30,4 @@
 
 string8 = "shibusokoksjsdbjsdhubsnslifnlnclsnssnfirls"
 # print(string8.count("s"))
-print(string8.count("s"))
+print(string8.count("l"))
