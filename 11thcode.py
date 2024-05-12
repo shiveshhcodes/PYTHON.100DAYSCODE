@@ -14,7 +14,7 @@ match s:
       print("The value of" , s , "is in the range")
    case 4:
       print("The value of" , s , "is in the range")
-   case 5:
+   case 21:
       print("The value of" , s , "is in the range")
    case 6:
       print("The value of" , s , "is in the range")
@@ -28,7 +28,7 @@ match s:
       print("The value of" , s , "is in the range")
 
 
-   case _ if s!="0,1,2,3,4,5,6,7,8,9,10":
+   case _ if s!="0,1,2,3,21,5,6,7,8,9,10":
       print("The Value Of",s,"Is Out Of Range")
 
 if s>10:
