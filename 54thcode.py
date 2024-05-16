@@ -57,22 +57,36 @@
 # Shakshi.ShowDetails()
 # shivesh.details()
 
+#  INHERITENCE
+
 class voters:
   def __init__(self , name , age):
     self.name = name
     self.age = age
     
   def details(self):
+    """
+    Prints the details of a person.
+    
+    This method prints the name, VoterID, and age of a person.
+    """
+
     print(f"{self.name} has VoterID and his age is {self.age}")
     
-class more(voters):
-  def moredetails(self):
-    print(f"INDIA IS A SECURAL COUNTRY {self.name} you got {self.age} recently")
+class moree(voters):
+  def detail(self):
+   print("happy happy happyyyy")
+   
+    
+    
+  # def moredetails(self):
+  #   print(f"INDIA IS A SECURAL COUNTRY {self.name} you got {self.age} recently")
     
 shivesh = voters("shivesh" , "21")
 shakshi = voters("shakshi" , "29")
-shakshi = more("shakshi" , "29")
+shakshi = moree("shakshi" , "29")
 
 shivesh.details()
 shakshi.details()
-shakshi.moredetails()
+shakshi.detail()
+print(voters.details.__doc__)
