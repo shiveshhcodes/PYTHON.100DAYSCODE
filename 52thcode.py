@@ -67,9 +67,9 @@
 
 def greet (fx):
     def mfx(*args , **kwargs):
-        print("GMGM")
+        print("Good Morning")
         fx(*args, **kwargs)
-        print("GNGN")
+        print("Good Night")
     return mfx
 
 @greet
