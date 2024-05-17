@@ -43,7 +43,7 @@ name3 = student_info("shivesh" , "cseiml")
 
 name1.result()
 name2.result()
-name3.infooo(21)
+name3.infooo(233)
 # name3.result()
 
   
