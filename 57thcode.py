@@ -27,7 +27,7 @@ class sum:
     
   @staticmethod
   def add(a,b):
-      return (a+b)
+      return (a+b)*a
  
 a = sum(21)
 print(a.num)
