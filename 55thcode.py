@@ -35,7 +35,7 @@ class objects:
         self.__name = name
      
     def result(self):
-      print(f"the output of box is {self.__name}")
+      print(f"the output of box is gonna be {self.__name}")
       return 
   
 class scales(objects):
