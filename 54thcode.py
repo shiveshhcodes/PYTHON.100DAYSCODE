@@ -13,7 +13,7 @@ class Programmer(Employee):
     print("The default langauge is Python")
 
 
-e1 = Employee("SanAI", 400)
+e1 = Employee("SanAI", 2000)
 e1.showDetails()
 e2 = Programmer("Shivesh", 4100)
 e2.showDetails()
