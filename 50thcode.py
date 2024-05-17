@@ -1,7 +1,7 @@
 # Today we are gonna learn on classes and objects on OOPs of python programming language!!
 
 class Cars:
-    Owner = "Raja"
+    Owner = "Raja Jijaji"
     Name = "BMW"
     Engine = "V8"
     Colour = "Black"
