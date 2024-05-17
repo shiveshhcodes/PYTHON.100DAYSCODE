@@ -1,32 +1,32 @@
 # # # today we are gonna learn on inheritance in python
 
-# # class Employee:
-# #   def __init__(self, name, id):
-# #     self.name = name
-# #     self.id = id 
+class Employee:
+  def __init__(self, name, id):
+    self.name = name
+    self.id = id 
 
-# #   def showDetails(self):
-# #     print(f"The name of Employee: {self.id} is {self.name}")
+  def showDetails(self):
+    print(f"The name of Employee: {self.id} is {self.name}")
 
-# # class Programmer(Employee):
-# #   def showLanguage(self):
-# #     print("The default langauge is Python")
+class Programmer(Employee):
+  def showLanguage(self):
+    print("The default langauge is Python")
 
 
-# # e1 = Employee("SanAI", 400)
-# # e1.showDetails()
-# # e2 = Programmer("Shivesh", 4100)
-# # e2.showDetails()
-# # e2.showLanguage()
+e1 = Employee("SanAI", 400)
+e1.showDetails()
+e2 = Programmer("Shivesh", 4100)
+e2.showDetails()
+e2.showLanguage()
 
-# # class Employee:
-# #   def __init__(self , name , ID , gender):
-# #     self.name = name
-# #     self.ID = ID
-# #     self.gender = gender
+class Employee:
+  def __init__(self , name , ID , gender):
+    self.name = name
+    self.ID = ID
+    self.gender = gender
     
-# #   def info(self):
-# #     print(f"{self.name} is a employee of our company , there ID is {self.ID} and there gender is {self.gender}")
+  def info(self):
+    print(f"{self.name} is a employee of our company , there ID is {self.ID} and there gender is {self.gender}")
 
 # # class HR(Employee):
 # #   def details(self):
