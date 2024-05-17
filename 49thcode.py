@@ -3,7 +3,7 @@ def hello():
 
 hello()
 sales1 = 6000
-profit1 = 2000
+profit1 = 20001
 ad1 = 1000
 # rajeev.sales
 
