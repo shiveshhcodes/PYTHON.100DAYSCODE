@@ -26,7 +26,7 @@ class cars:
         self.engine = engine
         
     def info(cars):
-        print(f"the car name is {cars.name} and it has {cars.engine} in it")
+        print(f"car name is {cars.name} and it has {cars.engine} in it")
         
         
 RR = cars("RR" , "v8")
