@@ -40,7 +40,7 @@ class objects:
   
 class scales(objects):
     def result2(self):
-      print(f"gellp {self._objects__name}")
+      print(f"gell {self._objects__name}")
   
   
 card = objects("card")
