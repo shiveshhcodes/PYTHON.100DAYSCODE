@@ -22,7 +22,7 @@
 
 
 class CSEIML_students:
-  college = "IPS ACADEMY"
+  college = "IPS ACADEMYYY"
   def __init__(self , name , Class):
     self.Class = Class
     self.name = name
