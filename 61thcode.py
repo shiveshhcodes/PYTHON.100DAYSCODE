@@ -1,11 +1,14 @@
-class Person:
-  def __init__(self, name, age):
-      self.name = name
-      self.age = age
-      self.version = 1
-
+class person:
+  def __init__(self , name , age):
+    self.name = name
+    self.age = int(age)
     
-p = Person("John", 30)
-print(p.__dict__)
+  def show(self):
+    print(f"{self.name} age is {self.age}")
+  
+shivesh = person("shivesh" , 21)
+shivesh.show()
 
-print(help(Person))
+print(shivesh.__dict__)
+print(help(person))
+    
