@@ -1,8 +1,7 @@
-from emp import Employee
+from a import college
 
-e = Employee("Harry")
-print(str(e))
-print(repr(e))
-# print(e.name)
-# print(len(e))
-e()
+b = college("shiveshhhhh" ,  21)
+print(b)
+print(b.name)
+print(b.number)
+print("the length of name is" , len(b))
