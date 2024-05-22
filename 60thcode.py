@@ -67,7 +67,7 @@ class employees:
     self.age = age
     
   def show(self):
-    print(f"{self.name} is a employee of {self.company} and there age is {self.age}")
+    print(f"{self.name} is an employee of {self.company} and there age is {self.age}")
     
   # @classmethod
   # def frmstrng (cls , string):
