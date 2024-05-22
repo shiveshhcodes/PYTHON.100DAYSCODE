@@ -26,11 +26,14 @@ class sum:
    self.num = self.num + n
     
   @staticmethod
-  def add(a,b):
-      return (a+b)*a
+  def add(a):
+      return (a+a)*a
  
-a = sum(21)
+a = sum(5)
 print(a.num)
 
-a.addtonum(21)
+a.addtonum(5)
+print(a.num)
+
+a.add(5)
 print(a.num)
