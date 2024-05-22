@@ -1,6 +1,6 @@
 from a import college
 
-b = college("IPS", 25)
+b = college("IPS Academy", 25)
 print(b)
 print(b.name)
 # print(b.number)
