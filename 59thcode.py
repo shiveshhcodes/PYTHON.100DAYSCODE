@@ -23,7 +23,7 @@ class Parents:
  parent = "Mom"
  
  def show(self):
-   print(f"The name of kid is {self.name} and his parent are {self.parent}")
+   print(f"Kid name is {self.name} and his parent are {self.parent}")
    
  @classmethod
  def change_parent_name(cls , new_parent):
