@@ -30,8 +30,8 @@ class rec:
   return self.length * self.width
   
 class circle(rec):
-  def __init__(self, radius):
-    super().__init__(radius , radius)
+  def __init__(self, r):
+    super().__init__(r , r)
     
   def area(self):
     return 3.14 * super().area()
