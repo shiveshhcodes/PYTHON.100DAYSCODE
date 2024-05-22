@@ -4,7 +4,7 @@ class person:
     self.age = int(age)
     
   def show(self):
-    print(f"{self.name} age is {self.age}")
+    print(f"Hi My name is {self.name} age is {self.age}")
   
 shivesh = person("shivesh" , 21)
 shivesh.show()
