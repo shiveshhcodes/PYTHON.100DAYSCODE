@@ -29,7 +29,7 @@ class CSEIML_students:
     # self.roll_number = roll_number
   
   def result(self):
-   print(f"{self.name} is a student of {self.college} and his Class is {self.Class}")
+   print(f"{self.name} is an student of {self.college} and his Class is {self.Class}")
    
   
 class student_info(CSEIML_students):
