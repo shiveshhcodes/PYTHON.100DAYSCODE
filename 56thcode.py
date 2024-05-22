@@ -37,7 +37,7 @@ class library:
         self.no_of_books = len(self.books)
         
     def result(self):
-        print(f"The Library has {self.no_of_books} books and those are- ")
+        print(f"This Library has {self.no_of_books} books and those are- ")
         
         for book in self.books:
          print(book)
