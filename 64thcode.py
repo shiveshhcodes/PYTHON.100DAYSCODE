@@ -14,14 +14,14 @@
 #     def area(self):
 #         return 3.14 *  super().area()
       
-# # rec = Shape(3, 5)
-# # print(rec.area())
+# # rectangle = Shape(3, 5)
+# # print(rectangle.area())
 
 # c = Circle(5)
 # print(c.area())
 
 
-class rec:
+class rectangle:
  def __init__(self , length , width):
    self.length = length
    self.width = width
@@ -29,7 +29,7 @@ class rec:
  def area(self):
   return self.length * self.width
   
-class circle(rec):
+class circle(rectangle):
   def __init__(self, r):
     super().__init__(r , r)
     
@@ -39,5 +39,5 @@ class circle(rec):
   
 c = circle(19.2)
 print(c.area())
-r = rec(10 ,12 )
+r = rectangle(10 ,12 )
 print(r.area())
