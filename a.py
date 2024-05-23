@@ -51,7 +51,7 @@ class college:
         
         
     def __str__(self):
-        return f"the name is {self.name} and the number is {self.number}"
+        return f"the name iss {self.name} and the number is {self.number}"
     
     def __len__(self):
      i = 0 
