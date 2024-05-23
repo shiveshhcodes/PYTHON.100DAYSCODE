@@ -16,7 +16,7 @@ class DancerEmployee(Employee, Dancer):
     self.dance = dance
     self.name = name
 
-o  = DancerEmployee("Kathak", "Shivani")
+o  = DancerEmployee("Kathak", "Mahak")
 print(o.name)
 print(o.dance)
 o.show() 
