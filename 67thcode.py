@@ -41,7 +41,7 @@ class Dog(Animal, Mammal):
         Mammal.__init__(self, name, fur_color)
         self.breed = breed
     def make_sound(self):
-        print("Bark!")
+        print("Barkkkk!")
         
     def __str__(self):
       return f"{self.name} is a dog breed of {self.breed} and his fur colors is {self.species}"
