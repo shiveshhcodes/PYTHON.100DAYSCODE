@@ -9,6 +9,6 @@ shivesh3 = set()
 print(type(shivesh3)) # this is gonna be empty set in set of pythons
 for i in shivesh: 
  print (i)
-raja = {12, "sidhi" , "rama"}
+raja = {12, "sidhi" , "ram"}
 print (raja)
  
