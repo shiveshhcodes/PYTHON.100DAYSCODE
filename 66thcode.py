@@ -4,7 +4,7 @@ class Animal:
         self.species = species
         
     def make_sound(self):
-        print(f"Sound made by the {self.name} is bhow bhow!!")
+        print(f"Sound made by the {self.name} is bhow!!")
 
 class Dog(Animal):
     def __init__(self, name, breed):
