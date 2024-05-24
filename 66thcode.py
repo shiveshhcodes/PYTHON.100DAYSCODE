@@ -8,8 +8,8 @@ class Animal:
 
 class Dog(Animal):
     def __init__(self, name, breed):
-        super().__init__(name , species= Dog)
-        # Animal.__init__(self, name, species="Dog")
+        # super().__init__(name , species= Dog)
+        Animal.__init__(self, name, species="Dog")
         self.breed = breed
     def make_sound(self):
         print(f"{self.name} Bark! and his breed is {self.breed}")
