@@ -9,7 +9,7 @@ class Animal:
         
 class Dog(Animal):
     def __init__(self, name, breed):
-        Animal.__init__(self, name, species="Dog")
+        Animal.__init__(self, name, species="Dogg")
         self.breed = breed
         
     def show_details(self):
