@@ -43,7 +43,7 @@ class scales(objects):
       print(f"gell {self._objects__name}")
   
   
-card = objects("card")
+card = objects("cardd")
 card.result()
 pen = scales("pen")
 pen.result2()
