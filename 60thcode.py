@@ -84,9 +84,9 @@ class employees:
   def new_company(cls , NC):
    cls.company = NC
    
-e1 = employees("Digvijay" , 21)
+e1 = employees("Digvijay" , 221)
 e1.show()
-e1 = employees("Digvijay" , 21)
+e1 = employees("Digvijay" , 221)
 employees.new_company("Tesla")
 e1.show()
 print(employees.company)
