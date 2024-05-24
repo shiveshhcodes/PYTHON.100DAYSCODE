@@ -2,8 +2,8 @@
 # we can generate personal error , to stop the code at point to not continue
 # it for further process
 
-a = int(input("Enter a value between 79 and 100 : - "))
-if (a<79 or a>100):
+a = int(input("Enter a value between 56 and 100 : - "))
+if (a<56 or a>100):
     raise ValueError("Entered value is not between required number")
 # here raise is used to generate an error.
 else: 
