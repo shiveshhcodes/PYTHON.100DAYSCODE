@@ -7,7 +7,7 @@ profit1 = 20001
 ad1 = 1000
 # rajeev.sales
 
-sales2 = 6000
+sales2 = 60003
 profit2 = 2000
 ad2 = 1000 
 # vikrant.sales
