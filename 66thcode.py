@@ -12,7 +12,7 @@ class Dog(Animal):
         Animal.__init__(self, name, species="Dog")
         self.breed = breed
     def make_sound(self):
-        print(f"{self.name} Bark! and his breed is {self.breed}")
+        print(f"{self.name} Bark! and there breed is {self.breed}")
 
 d = Dog("Dog", "Pommerian")
 d.make_sound()
