@@ -23,3 +23,6 @@ class D2(BaseClass):
 
 class D3(D1):
   pass
+
+class D4(D2):
+  pass
