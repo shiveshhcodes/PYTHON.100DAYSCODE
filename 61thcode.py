@@ -6,7 +6,7 @@ class person:
   def show(self):
     print(f"Hi My naam is {self.naam} age is {self.age}")
   
-shivesh = person("shivesh" , 21)
+shivesh = person("shivesh" , 22)
 shivesh.show()
 
 print(shivesh.__dict__)
