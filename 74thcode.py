@@ -15,6 +15,16 @@
 #   if food == "quit":
 #       break
 #   foods.append(food)
-foods = list()
-while (food := input("What food do you like?: ")) != "quit":
-    foods.append(food)
+# foods = list()
+# while (food := input("What food do you like?: ")) != "quit":
+#     foods.append(food)
+
+# numbers = [5,4,3,2,1]
+# while (num := numbers > 0):
+#     numbers.pop(num)
+
+numbers = [5, 4, 3, 2, 1]  # Added 0 to demonstrate stopping condition
+while numbers and (num := numbers.pop()) != 0:
+    print(num)
+
+
