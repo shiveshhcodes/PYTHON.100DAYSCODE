@@ -12,7 +12,7 @@ class Derived3(Derived1, Derived2):
   pass
 
 # Hierarchical Inheritance
-class BaseClass:
+class BaseeClass:
   pass
 
 class D1(BaseClass):
