@@ -11,10 +11,10 @@
 #   if(i%100 == 0):
 #     break
 
-for d in range(10):
-    print(d)
+# for d in range(10):
+#     print(d)
 
-print("THIS LOOP IS ENDED HERE")
+# print("THIS LOOP IS ENDED HERE")
 
 # i=22
 # while True:
@@ -22,3 +22,15 @@ print("THIS LOOP IS ENDED HERE")
 #     i = i + 3
 #     if(i % 100 == 15):
 #         break
+
+while True:
+    age = input("Enter your age: ")
+    if age.isdigit():
+        age = int(age)
+        if age >= 0:
+            print(f"Your age is {age}.")
+            break
+        else:
+            print("Age cannot be negative.")
+    else:
+        print("Invalid input. Please enter a number.")
