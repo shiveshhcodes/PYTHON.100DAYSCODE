@@ -10,13 +10,13 @@ nameee = ("""
 
 3. I AM A STUDENT OF 3RD YEAR CS
 
-4. I am learning 100days of Python!!
+4. I am learning Python!!
 
 """)
 print (nameee)
 
-# name = "shivesh"
-# print (name[0])
-print("lets divide characters in \n")
-for character in nameee :
-  print (character)
+name = "shivesh"
+print (name[0])
+print("lets divide characters in")
+# for character in nameee :
+#   print (character)
