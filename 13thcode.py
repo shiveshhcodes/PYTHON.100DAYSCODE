@@ -22,10 +22,10 @@
 #     print(i)
 #     i = i-1
 
-i = 2506
-while(i<=3000):
-    print(i)
-    i=i+19.98
+# i = 2506
+# while(i<=3000):
+#     print(i)
+#     i=i+19.98
 
 # while True:
 #     Number=int(input("Enter a positive Number : "))
@@ -33,6 +33,23 @@ while(i<=3000):
 #     if not Number > 0:
 #         break
 
+# fruits = ['apple', 'banana', 'cherry'] 
+# for index , fruit in enumerate(fruits , start=1):
+#     print(f"rank {index} fruit is {fruit}.")
+    
+# colors = ['red', 'green', 'blue']
+# for index, color in enumerate(colors, start=1):
+#     print(f"{index}. {color}")
+
+# names = ['Alice', 'Bob', 'Charlie']
+# ages = [25, 30, 35]
+# for name, age in zip(names, ages):
+#     print(f"{name} is {age} years old.")
 
 
+names = ['sanjay' , 'lata' , 'shakshi' , 'shivi']
+age = [59 , 52 , 29 , 27]
+
+for names,age in zip(names,age):
+    print(f"{names} is {age} years old")
 
