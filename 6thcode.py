@@ -1,4 +1,4 @@
-a = input("what is your name Sir/Mam: ")
+a = input("what is your name: ")
 print("Ok, your name is", a, "hahaha , i caught you")
 print("\nSachbol yahi hai na tera naam")
 
