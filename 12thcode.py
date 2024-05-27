@@ -44,8 +44,8 @@ if z.lower() == "yes":
         print(s) 
     print("\nhope you will have good day")
 elif z.lower() == "No Idea":
-      print("\n\nHere is the result ----- ")
-      print("give a shot , here is the result :")
+      print("\n\nHere is the result --- ")
+      print("give a shot , here is the result - ")
       for s in range(x,y+1):
         print(s)
 else:
