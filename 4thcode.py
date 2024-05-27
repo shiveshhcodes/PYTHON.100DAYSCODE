@@ -1,7 +1,7 @@
 #i am planning to make my first calculator using python , rn.. so let's do it.
 
 a = 4523
-b = 121212
+b = 1212
 
 ans1= a+b
 print("the sum of",  a , "and" , b , "is" , ans1 )
