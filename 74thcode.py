@@ -23,8 +23,4 @@
 # while (num := numbers > 0):
 #     numbers.pop(num)
 
-numbers = [5, 4, 3, 2, 1]  # Added 0 to demonstrate stopping condition
-while numbers and (num := numbers.pop()) != 0:
-    print(num)
-
 
