@@ -24,8 +24,8 @@ match s:
       print("The value of" , s , "is in the range")
    case 9:
       print("The value of" , s , "is in the range")
-   case 10:
-      print("The value of" , s , "is in the range")
+   # 3
+   
 
 
    case _ if s!="0,1,2,3,21,5,6,7,8,9,10":
@@ -35,4 +35,4 @@ if s>10:
    print("\nTRY AGAIN NUMBER IN RANGE")
    
 else:
-   print("BETTER LUCK NEXT TIME")
+  print("BETTER LUCK NEXT TIME")
