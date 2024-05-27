@@ -10,5 +10,4 @@ print (namelen)
 # name_parts = name.split()
 # initails = for part in name_parts
 initails_str = ':'.join(name)
-
 print(initails_str)
