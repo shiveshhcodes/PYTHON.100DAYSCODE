@@ -47,9 +47,24 @@
 #     print(f"{name} is {age} years old.")
 
 
-names = ['sanjay' , 'lata' , 'shakshi' , 'shivi']
-age = [59 , 52 , 29 , 27]
+# names = ['sanjay' , 'lata' , 'shakshi' , 'shivi']
+# age = [59 , 52 , 29 , 27]
 
-for names,age in zip(names,age):
-    print(f"{names} is {age} years old")
+# for names,age in zip(names,age):
+#     print(f"{names} is {age} years old")
 
+# nested_list = [[1, 2], [3, 4], [5, 6]]
+# flattened_list = []
+# for inner_list in nested_list:
+#     for element in inner_list:
+#         flattened_list.append(element)
+# print(flattened_list)  # Output: [1, 2, 3, 4, 5, 6]
+
+tools = ['Claude', 'Pieces', 'Mac Gestures', 'A cup of coffee', 'Bug free code', 'Bose Headphones']
+
+tweet = "Not gonna lie, these make my life as a dev so much easier 💻🙌 #PythonDev"
+
+for tool in tools:
+    tweet += f"\n\n🔧 {tool}: Makes coding better."
+
+print(tweet)
