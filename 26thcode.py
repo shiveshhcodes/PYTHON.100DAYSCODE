@@ -1,7 +1,10 @@
 # today we are gonna learn sets in python!!
 
-shivesh = {25 , "june" , 2002 , "wow" , "$$$" , "20/5" , 30 }
-print(shivesh)
+shivesh = {25 , "june" , 2002 , "wow" , "$$$" , "20/5" , 30}
+set_shivesh = list(shivesh)
+sett_shivesh = tuple(shivesh)
+print(set_shivesh)
+print(sett_shivesh)
 
 shivesh2 = {} # this is gonna be class of dictionary. 
 print(type(shivesh2))
