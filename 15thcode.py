@@ -27,7 +27,7 @@
 
 def calculateMultiply(a,b):
     multiply = (a*b)
-    print(multiply)
+    return(multiply)
 
 def Caldivide(c,d):
     divide = (c%d)
@@ -36,9 +36,9 @@ def Caldivide(c,d):
 a = 31
 b = 21
 
-calculateMultiply(a,b)
+print(calculateMultiply(a,b))
 
-c = 12
+c = 10
 d = 10
 
 Caldivide(c,d)
