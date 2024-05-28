@@ -12,23 +12,32 @@
 # else:
 #     print("this loop is ended here")
     
-# for boss in range(10):
-#     i = i+1
-#     boss = i * 2
-#     print("2 X" , i+1 , "is equals " , boss)
+# for i in range(1 ,91):
+#     result = i * 9
+#     print(f"9 X {i} = {result}")
+
 # else:
 #     print("none")
-# try:
-#  value_taken=int(input("ENTER A RANDOM VALUE "))
-#  n22 = int(input("till what value you want results?? "))
 
-#  for i in range(1 , n22+1):  
-#     boss = value_taken * i
-#     print(value_taken , "X", i , "is equals to", boss) 
-#  else:
-#     print("Loop completed without interruption")
-# except ValueError:
-#     print("please enter a intger value")
+while True:
+    try:
+        value_taken=int(input("ENTER A RANDOM VALUE : "))
+        n22 = int(input("till what value you want results?? "))
+        print("\n okay!! there we go")
+        print("\n ouput 👇🏻")
+
+        for i in range(1 , n22+1):  
+            boss = value_taken * i
+            print(value_taken , "X", i , "is equals to", boss) 
+            
+        print("Loop completed without interruption")
+        break
+    except ValueError:
+        print("Oops!! this is not an Integer!!")
+
+
+
+    
 
 # i = 1
 # while i<5:
@@ -52,20 +61,20 @@
 # else : 
 #     print("thank you")
 
-while True:
-    try:
-        value_taken = int(input("Enter a random value: "))
+# while True:
+#     try:
+#         value_taken = int(input("Enter a random value: "))
 
-        n22 = int(input("Till what value do you want results?: "))
+#         n22 = int(input("Till what value do you want results?: "))
 
-        break
-    except ValueError:
+#         break
+#     except ValueError:
 
-        print("Invalid input! Please enter an integer value.")
+#         print("Invalid input! Please enter an integer value.")
 
 
-for i in range(1, n22 + 1):
-    result = value_taken * i
-    print(value_taken, "X", i, "is equal to", result)
+# for i in range(1, n22 + 1):
+#     result = value_taken * i
+#     print(value_taken, "X", i, "is equal to", result)
     
-print("Loop completed without interruption")
+# print("Loop completed without interruption")
