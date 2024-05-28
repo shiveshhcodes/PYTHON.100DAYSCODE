@@ -47,11 +47,11 @@
 #     print(f"{name} is {age} years old.")
 
 
-# names = ['sanjay' , 'lata' , 'shakshi' , 'shivi']
-# age = [59 , 52 , 29 , 27]
+names = ['sanjay' , 'lata' , 'shakshi' , 'shivi']
+age = [59 , 52 , 29 , 27]
 
-# for names,age in zip(names,age):
-#     print(f"{names} is {age} years old")
+for names,age in zip(names,age):
+    print(f"{names} is {age} years old")
 
 # nested_list = [[1, 2], [3, 4], [5, 6]]
 # flattened_list = []
