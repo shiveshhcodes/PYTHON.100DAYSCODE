@@ -48,13 +48,23 @@
 # for i in range(1 , 21):
 #     print(f" 19 times {i} is { 19 * i}")
 
+# import time
+
+# countdown = 1000000000
+# while countdown > 0:
+#     print(f"Remaining time is : {countdown} seconds")
+#     countdown -= 10000
+#     time.sleep(0.0000001)
+#     # time.strptime("%H:%M:%S")
+    
+# print("time's UP")
+
 import time
 
-countdown = 1000000000
-while countdown > 0:
-    print(f"Remaining time is : {countdown} seconds")
-    countdown -= 10000
-    time.sleep(0.0000001)
-    # time.strptime("%H:%M:%S")
+countdown = 5
+while countdown>-1:
+    print(f"Time remaining is {countdown} seconds")
+    countdown -= 1
+    time.sleep(1)
     
-print("time's UP")
+print("Time's Up")
