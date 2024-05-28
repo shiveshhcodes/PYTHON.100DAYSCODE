@@ -17,7 +17,6 @@ employeesinfo = {
     12: "Shivangi" ,
     7: "Shakshi" , 
     1: "Lata" ,
-    10: "Sanjay"
 }
 
 print(employeesinfo)
