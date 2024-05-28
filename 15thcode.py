@@ -33,8 +33,8 @@ def Caldivide(c,d):
     divide = (c%d)
     print(divide)
 
-a = 21 
-b = 10
+a = 31
+b = 21
 
 calculateMultiply(a,b)
 
