@@ -75,7 +75,6 @@ questions = [
         "amount": 10000
     }
 ]
-
 total_amount = 0
 
 for question in questions:
