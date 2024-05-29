@@ -15,6 +15,11 @@
 # print(text_upper)
 
 
-text = 'hi Hello world Welcome to new world'
-count = ','.join(text)
-print(count)
+# text = 'hi Hello world Welcome to new world'
+# count = ','.join(text)
+# print(count)
+
+toppers_list = ['shivesh' , 'nimki' , 'isha' , 'ajay' , 'lakshya' , 'shivesh' , 'nimki' , 'isha' , 'ajay' , 'lakshya' , 'shivesh' , 'nimki' , 'isha' , 'ajay' , 'lakshya']
+
+for index , toppers_list in enumerate(toppers_list , start = 21):
+    print(f"{index}. {toppers_list}")
