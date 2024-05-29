@@ -11,7 +11,7 @@ def multiplication (a,b):
 #     multiplication(a,b)
 
 if __name__ == "__main__":
-    a = 12
-    b = 12
+ a = 12
+ b = 13
    
-    multiplication(a,b)
+ multiplication(a,b)
