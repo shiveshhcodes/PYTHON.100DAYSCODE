@@ -1,4 +1,4 @@
-# names = {"shivesh" , "nimki" , "isha" , "lakshya" , "shukla" , "prince"}
+names = {"shivesh" , "nimki" , "isha" , "lakshya" , "shukla" , "prince"}
 
 # while len(names)>1:
 #  remove = names.pop()
@@ -17,6 +17,7 @@
 # user_input = input("Enter comma-separated names to create a set: ")
 # # Split the input into a list, then create a set
 # names = set(user_input.split(','))  # Create a set from the input string
+# print(names)
 
 # # Get the last remaining name
 # last_name = get_last_remaining_name(names)
