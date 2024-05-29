@@ -8,27 +8,27 @@
 #  LETS RUN SEEK HERE AND SKIP THE CODE TO AFTER 7 CHARACTERS!!!
 
 # f = open('45thcode.txt' , 'r')
-# f.seek(2)
+# f.seek(7)
 
 # result = f.read()
 # print(result)
 
 
-# # LETS DISCOVER WHAT IS TELL() FUNCTION IN PYTHON!!
+# LETS DISCOVER WHAT IS TELL() FUNCTION IN PYTHON!!
 
-# f = open('45thcode.txt' , 'r')
-# f.seek(15)
+f = open('45thcode.txt' , 'r')
+f.seek(15)
 
-# print(f.tell()) 
+print(f.tell()) 
 
-# result = f.read()
-# print(result)
+result = f.read()
+print(result)
 
 
 # LETS DISCOVER WHAT IS TRUNCATE () FUNCTION IN PYTHON!!
 
-f = open('45thcode.txt' , 'a')
-f.write('be my first line of code')
-f.truncate(7)
+# f = open('45thcode.txt' , 'a')
+# f.write('be my first line of code')
+# f.truncate(7)
 # result = f.read()
 # print(result)
