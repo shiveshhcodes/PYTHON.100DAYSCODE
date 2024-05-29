@@ -4,4 +4,4 @@ a = int(input("ENTER A VALUE : "))
 b = int(input("ENTER A VALUE AGAIN : "))
 
 
-print("A won") if a>b else print("=") if a==b else print("B won")
+print("A won") if a>b else print(f"{a}={b}") if a==b else print("B won")
