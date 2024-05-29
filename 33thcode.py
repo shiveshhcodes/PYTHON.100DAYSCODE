@@ -3,7 +3,7 @@
 # it for further process
 
 a = int(input("Enter a value between 56 and 100 : - "))
-if (a<56 or a>100):
+if (a<59 or a>100):
     raise ValueError("Entered value is not between required number")
 # here raise is used to generate an error.
 else: 
