@@ -11,7 +11,7 @@ def local():
   print("then the local value of x is" , x)
   print("then the local value of y is" , y)
 
-# print(f"hence ,  global value of x is {x}")
+print(f"hence ,  global value of x is {x}")
 local()
 # x = 21
 print(f"NOW , the global value of x is now" , x)
