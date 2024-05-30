@@ -3,7 +3,7 @@
 # a is b and == difference
 
 
-a = {221 , 221 , 221}
+a = {221 , 221 , 222}
 b = [31 , 31 , 31]
 
 print(a is b)
