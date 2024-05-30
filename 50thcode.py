@@ -17,8 +17,8 @@ shivesh = Cars()
 # tejas = Cars()
 
 shivesh.Owner = "Shivesh"
-shivesh.Name = "Rolls Royce"
-shivesh.Engine = "V10"
+shivesh.Name = "Merceds G63"
+shivesh.Engine = "V12"
 shivesh.Year = 2025
 
 shivesh.carinfo()
