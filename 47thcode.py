@@ -21,22 +21,26 @@ l = [1,2,3,4,5,6,7,8,9,10]
 #     return a>4
 
 # newll = list(filter(maximum , l))
-# # newll = list(filter(lambda a: a>6 , l))
+# newlll = list(filter(lambda a: a>5 , l))
 # print(newll)
+# print(newlll)
 
 
 # REDUCE 
 
-# from functools import reduce
-
-# numbers = [1,2,3,4]
-
-# multiplication = reduce(lambda x,y: x/y , numbers)
-# print("{:.5f}".format(multiplication))
- 
- 
 from functools import reduce
 
-num = [1,2,3.4,5.6,7.8,9.65]
-multiply = reduce(lambda x,y: x*y*y , num)
-print("{:.3f}".format(multiply))
+# results = {}
+for numbers in range(1 , 10):
+    numbers = list(range(1 , numbers+1))
+    multiplication = reduce(lambda x,y: x*y , numbers)
+    print("{:.5f}".format(multiplication))
+    
+# print(results)
+ 
+ 
+# from functools import reduce
+
+# num = [1,2,3.4,5.6,7.8,9.65]
+# multiply = reduce(lambda x,y: x*y*y , num)
+# print("{:.3f}".format(multiply))
