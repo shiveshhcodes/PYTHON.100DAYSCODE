@@ -1,17 +1,21 @@
 # # today we are gonna learn and discover what decorators are in python!!
 
-# def greet(fx):
-#     def mfx(*args , **kwargs):
-#      print("GM")
-#      fx(*args , **kwargs)
-#      print("GN")
-#     return mfx
+def greet(fx):
+    def mfx(*args , **kwargs):
+     print("GM")
+     fx(*args , **kwargs)
+     print("GN")
+    return mfx
     
 
-# @greet
-# def add(a, b):
-#    add = (a+b)
-#    print("the sum of two numbers is" , add)
+@greet
+def add(a, b):
+   add = (a+b)
+   print("the sum of two numbers is" , add)
+   
+# a = 21
+# b = 5
+add(21,5)
    
 # @greet
 # def diff(a, b):
@@ -65,20 +69,20 @@
 # add(244,21)
 # diff(221,21)
 
-def greet (fx):
-    def mfx(*args , **kwargs):
-        print("Good Morning")
-        fx(*args, **kwargs)
-        print("Good Night")
-    return mfx
+# def greet (fx):
+#     def mfx(*args , **kwargs):
+#         print("Good Morning")
+#         fx(*args, **kwargs)
+#         print("Good Night")
+#     return mfx
 
-@greet
-def add(a,b):
- addition = a+b
- print ("sum of two numbers you entered is" , addition)
+# @greet
+# def add(a,b):
+#  addition = a+b
+#  print ("sum of two numbers you entered is" , addition)
  
 
-a = int(input("Enter first value "))
-b = int(input("Enter second value "))
-result = add(a,b)
-print(result)
+# a = int(input("Enter first value "))
+# b = int(input("Enter second value "))
+# result = add(a,b)
+# print(result)
