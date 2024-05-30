@@ -29,7 +29,7 @@ class cars:
         print(f"car name is {cars.name} and it has {cars.engine} in it")
         
         
-RR = cars("RR" , "v8")
+RR = cars("RR" , "v10")
 BMW = cars("BMW" , "V6")
 
 RR.info()
