@@ -1,4 +1,4 @@
-# # # today we are gonna learn on inheritance in python
+# today we are gonna learn on inheritance in python
 
 class Employee:
   def __init__(self, name, id):
@@ -6,7 +6,7 @@ class Employee:
     self.id = id 
 
   def showDetails(self):
-    print(f"The name of Employee: {self.id} is {self.name}")
+    print(f"The name of Employer: {self.id} is {self.name}")
 
 class Programmer(Employee):
   def showLanguage(self):
