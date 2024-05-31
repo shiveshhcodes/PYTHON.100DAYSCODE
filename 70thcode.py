@@ -25,7 +25,7 @@ class Program:
     
   def show_details(self):
     print("Program Name ", self.program_name)
-    print("Duration ", self.duration)
+    print("Duration", self.duration)
     
 class Student(Person):
   def __init__(self, name, age, address, program):
