@@ -15,7 +15,7 @@ class Dog(Animal):
 
     def show_details(self):
         Animal.show_details(self)
-        print("Species: cat")
+        print("Species: dog")
         print("Breed:", self.breed)
 
 class Cat(Animal):
