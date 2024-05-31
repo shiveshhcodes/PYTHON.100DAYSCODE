@@ -70,6 +70,8 @@ class classes(college):
 
 college_name = college("IPS", 21)
 classes_name = classes(college_name, "D")
+# college_len = college("hello" , 23)
+# print(len(college_len))
 
 college_name.show()
 classes_name.show1()
