@@ -18,7 +18,7 @@ class Dog(Animal):
         
 class GoldenRetriever(Dog):
     def __init__(self, name, color):
-        Dog.__init__(self, name, breed="Golden Retriever")
+        Dog.__init__(self, name, breed="Rottweler")
         self.color = color
         
     def show_details(self):
