@@ -44,7 +44,7 @@ class Dog(Animal, Mammal):
         print("Barkkkk!")
         
     def __str__(self):
-      return f"{self.name} is a dog breed of {self.breed} and his fur colors is {self.species}"
+      return f"{self.name} is a dog breed of {self.breed} and his fur colors is {self.fur_color}"
         
 bulldog = Dog("Pullu" , "Bulldog" , "brown")
 print(bulldog)
