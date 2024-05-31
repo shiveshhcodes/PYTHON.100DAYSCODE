@@ -42,7 +42,7 @@ import time
 
 # import time
 
-end_time = time.time() + 20 # Calculate the end time, 20 seconds from now
+end_time = time.time() + 10 # Calculate the end time, 20 seconds from now
 
 while time.time() < end_time:
     t = time.localtime()
