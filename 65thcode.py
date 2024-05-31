@@ -36,7 +36,7 @@ class Vector:
     # return Vector(self.i + x.i,  self.j+x.j, self.k+x.k)
     
 
-v1 = Vector(2,2,1)
+v1 = Vector(2,7,1)
 v1.addition()
 v2 = Vector(21,21,1)
 v2.addition()
