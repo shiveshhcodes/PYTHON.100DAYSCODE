@@ -1,4 +1,4 @@
-from a import college
+from otherfiles.a import college
 
 b = college("IPS Academy", 30)
 print(b)
