@@ -45,7 +45,7 @@ class library:
 number = library()
 number.addbook("arm shifter")
 number.addbook("leg shifter")
-number.addbook("head shifter")
+number.addbook("eye shifter")
 
 
 number.result()
