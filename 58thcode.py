@@ -35,7 +35,7 @@ class CSEIML_students:
 class student_info(CSEIML_students):
   def infooo(self , roll):
     self.rollnumber = roll
-    print(f"The Rollnumber of {self.name} is {self.rollnumber}")
+    print(f"The Roll number of {self.name} is {self.rollnumber}")
    
 name1 = CSEIML_students("raj" , "CSEIML")
 name2 = CSEIML_students("shivesh" , "CSEIML")
