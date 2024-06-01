@@ -25,5 +25,5 @@ class Cat(Animal):
 
     def show_details(self):
         Animal.show_details(self)
-        print("Species: Cat")
+        print("Species = Cat")
         print("Color:", self.color)
