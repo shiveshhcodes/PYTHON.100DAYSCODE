@@ -28,7 +28,7 @@
 
       
 num = []
-while (food := input("Enter any Number: ").lower()) != "quit":
+while (food := input("Enter any Numberr: ").lower()) != "quit":
     while not food.strip().isdigit():  # Check if the input is not a valid number
         print("Please enter a number.")
         food = input("Enter any Number: ").lower()
