@@ -1,9 +1,0 @@
-# today we are gonna discover shutil module.
-import shutil
-import os
-
-
-shutil.copy2("76thcode.py" , "randomm.py")
-os.rename("randomm.py" , "shutil_model_copy_76th")
-os.remove("random.py")
-# os.remove("try.txt")
