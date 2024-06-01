@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser()
 # Add command line arguments
 parser.add_argument("url", help="Url of the file to download")
 # parser.add_argument("output", help="by which name do you want to save your file")
-parser.add_argument("-o", "--output", type=str, help="Name of the file", default=None)
+parser.add_argument("-o", "output", type=str, help="Name of the file", default=None)
 
 # Parse the arguments
 args = parser.parse_args()
