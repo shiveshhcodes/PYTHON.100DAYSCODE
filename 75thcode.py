@@ -1,7 +1,7 @@
 # practiceing walrus operator - 
 
 foods = []
-while (food := input("Enter any Number: ").lower()) !="quit":
+while (food := input("Enter a Number Only: ").lower()) !="quit":
     while True:
        if not food.strip():
            print("please do not leave space")
