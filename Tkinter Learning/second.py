@@ -8,3 +8,4 @@ window.config(bg="green") # 1. as it shows , it uses to give background color
 # window['bg']="yellow" # 2. as it shows , it uses to give background color 
 
 window.mainloop()
+window.mainloop()
