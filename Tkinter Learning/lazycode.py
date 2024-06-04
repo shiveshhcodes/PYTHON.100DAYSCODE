@@ -152,12 +152,12 @@ while True:
                            # voice command to execute 
 
 
-import os
-import glob
-import shutil
-import time
-import inflect
-import speech_recognition as sr
+# import os
+# import glob
+# import shutil
+# import time
+# import inflect
+# import speech_recognition as sr
 
 # def ensure_py_extension(filename):
 #     if not filename.endswith('.py'):
