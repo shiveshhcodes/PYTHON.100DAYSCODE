@@ -17,13 +17,15 @@ window.maxsize(500,500) #use to minimize
 
 lab = Label(window, text="shiveshcodes", font=("Robotic" , 20 , "bold"), bg="green")
 # lab.pack()
+lab.place(x=20 , y=35 , height=89 , width= 159)
+
 # lab.grid(row=25 , column=26 , padx=25 , pady=34)
-lab.grid(row=25 , column=26 , padx=25 , pady=34)
+# lab.grid(row=25 , column=26 , padx=25 , pady=34)
 # lab.pack(padx=10 , pady=10) #padding of text
 # lab.pack(ipadx=3 , ipady=2 , side="left") #padding of internal box of text
 
-# lab1 = Label(window, text="Github", font=("Robotic" , 20 , "bold"), bg="green")
-
+lab1 = Label(window, text="Github", font=("Robotic" , 20 , "bold"), bg="green")
+lab1.place(relx=0.8 , rely=0.8)
 # lab1.pack(padx=10 , pady=10) #padding of text
 # lab1.pack(ipadx=2 , ipady=2 ,side="left") #padding of internal box of text
 
