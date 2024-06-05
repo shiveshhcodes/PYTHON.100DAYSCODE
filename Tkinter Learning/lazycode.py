@@ -40,11 +40,11 @@ while True:
         print("Processingggggg!! ⏳")
         shutil.copy(source, destination)
         # time.sleep(1.34)
-        print("Done Shivesh Boss")
         
     else:
      print(f"Source file does not exist , please try again")
     time.sleep(1)
+    print("Done Shivesh Boss")
     
 # import os
 # import glob
